@@ -11,6 +11,7 @@ class UserImageSmall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      // ignore: prefer_const_constructors
       margin: EdgeInsets.only(top: 8, right: 8),
       height: 60,
       width: 60,

@@ -26,14 +26,14 @@ class UserCard extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.5),
                       spreadRadius: 4,
                       blurRadius: 4,
-                      offset: Offset(3, 3),
+                      offset: const Offset(3, 3),
                     )
                   ]),
             ),
             Container(
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     colors: [
                       Color.fromARGB(200, 0, 0, 0),
                       Color.fromARGB(0, 0, 0, 0),
@@ -65,13 +65,13 @@ class UserCard extends StatelessWidget {
                       UserImageSmall(imageUrl: user.imageUrls[2]),
                       UserImageSmall(imageUrl: user.imageUrls[3]),
                       UserImageSmall(imageUrl: user.imageUrls[4]),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Container(
                         width: 35,
                         height: 35,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.white,
                         ),

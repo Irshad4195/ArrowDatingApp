@@ -21,7 +21,6 @@ class User {
     required this.location,
   });
 
-  @override
   List<Object?> get props => [id, name, age, imageUrls, bio, jobTitle];
 
   static List<User> users = [

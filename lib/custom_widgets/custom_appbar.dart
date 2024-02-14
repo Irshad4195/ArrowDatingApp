@@ -15,12 +15,12 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         IconButton(
           onPressed: () {},
-          icon: Icon(Icons.message_sharp),
+          icon: const Icon(Icons.message_sharp),
           color: Theme.of(context).primaryColor,
         ),
         IconButton(
           onPressed: () {},
-          icon: Icon(Icons.person_sharp),
+          icon: const Icon(Icons.person_sharp),
           color: Theme.of(context).primaryColor,
         ),
       ],
@@ -28,6 +28,5 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  // TODO: implement preferredSize
-  Size get preferredSize => Size.fromHeight(56);
+  Size get preferredSize => const Size.fromHeight(56);
 }

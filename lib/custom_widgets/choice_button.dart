@@ -30,7 +30,7 @@ class ChoiceButton extends StatelessWidget {
                   Theme.of(context).primaryColor,
                   Theme.of(context).hintColor
                 ])
-              : LinearGradient(colors: [
+              : const LinearGradient(colors: [
                   Colors.white,
                   Colors.white,
                 ]),
@@ -39,7 +39,7 @@ class ChoiceButton extends StatelessWidget {
               color: Colors.grey.withAlpha(50),
               spreadRadius: 4,
               blurRadius: 4,
-              offset: Offset(3, 3),
+              offset: const Offset(3, 3),
             )
           ]),
       child: Icon(
